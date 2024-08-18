@@ -1,0 +1,51 @@
+amitg@LAPTOP-OJTKCS4Q MINGW64 ~/Desktop/Programming/Git/learn git files (master)
+$ git commit -m "added staged"
+[master (root-commit) 6c3256f] added staged
+ 6 files changed, 9 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Db.accdb
+ create mode 100644 First.txt
+ create mode 100644 New.pub
+ create mode 100644 Static/New Text Document.txt
+ create mode 100644 aaryan.xlsx
+
+amitg@LAPTOP-OJTKCS4Q MINGW64 ~/Desktop/Programming/Git/learn git files (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Static/New Text Document.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+amitg@LAPTOP-OJTKCS4Q MINGW64 ~/Desktop/Programming/Git/learn git files (master)
+$ git add --a
+
+amitg@LAPTOP-OJTKCS4Q MINGW64 ~/Desktop/Programming/Git/learn git files (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Static/New Text Document.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Static/New Text Document.txt
+
+
+amitg@LAPTOP-OJTKCS4Q MINGW64 ~/Desktop/Programming/Git/learn git files (master)
+$ git diff
+diff --git a/Static/New Text Document.txt b/Static/New Text Document.txt
+index c2b3f12..cbdb7ff 100644
+--- a/Static/New Text Document.txt
++++ b/Static/New Text Document.txt
+@@ -1 +1 @@
+-HEllO AARYAN GOSWMAMI
+\ No newline at end of file
++AAARYAN
+\ No newline at end of file
+
+amitg@LAPTOP-OJTKCS4Q MINGW64 ~/Desktop/Programming/Git/learn git files (master)
+$

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill student form.</title>
+</head>
+<body bgcolor="skyblue"><center>
+    <h1><b>Please fill the blow form for upcoming activities.</b></h1>
+    <h2><b><li>Please fill all the details blow in capital letters.</b></h2>
+    <h2><b><li>All the entries are mandatorye nter them carefully. </li></b></h2>
+    <form name="Student Registration"  action="" method="">
+    <table>
+        <style>
+            table,td,th{
+                border: 1px solid black;
+            }
+        </style>
+        <tr><td>CANDIDATE'S NAME: <input type="text"></td></tr>
+        <tr><td>FATHER'S NAME   : <input type="text" value="Mr."></td></tr>
+        <tr><td>MOTHER'S NAME   : <input type="text" value="Mrs."></td></tr>
+        <tr> <td>BRANCH: <select name="Branch Name">CSE 
+            <option>"--SELECT BRANCH--"</option>
+            <option>Computer Science & Engineering</option>
+            <option>CS Artificial Intelligence</option>
+            <option>CS Machine Learning</option>
+            <option>CS Data Science</option>
+            <option>CS Cloud Computing</option>
+        </select> </tr></td>
+        <tr><td>Semester: <select name="Semester" >SEMESTER
+            <option value="">--SELECT SEMESTER--</option>
+            <option>I</option>
+            <option>II</option>
+            <OPtion>III</OPtion>
+            <option>IV</option>
+            <option >V</option>
+            <option >VI</option>
+            <option >VII</option>
+            <option >VIII</option>
+        </td></tr></select>
+        <tr><td> GENDER : <input type="radio" name="gender" id="01">Male
+                  <input type="radio" name="gender" id="02">Female
+        </td></tr>
+        <tr><td> DATE OF BIRTH: <input type="date" name="" id=""></td></tr>
+        <tr><td> CANDIDATE'S PHOTO: <input type="file" name="photo" id=""></td></tr> 
+        <tr><td> EMAIL: <input type="email" name="" id=""></td></tr>
+        <tr><td> PASSWORD: <input type="password" name="" id=""></td></tr>
+        <tr><td> SUBMITB HERE: <a href="file:///C:/Users/amitg/Desktop/Programming/HTML/Fill%20form/Submit.html" ><input type="button" value="Submit"></a>
+            <button onclick="printFunction()">Print</button>
+<script>
+      function printFunction() { 
+        window.print(); 
+      }
+</script>
+        
+    </table>
+    </form>
+ </center>   
+</body>
+</html>
